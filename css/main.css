@@ -5,3 +5,79 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
+
+body {
+    background-color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.hot {
+    background-color: tomato;
+}
+
+.cold {
+    background-color: rgb(123, 123, 239);
+}
+
+
+.today {
+    font-size: 10em;
+    color: #333;
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    height: 1em;
+    margin: auto;
+}
+
+.high, .low {
+    display: block;
+    font-size: 0.4em;
+}
+
+.high {
+    margin-bottom: 0.2em;
+}
+.current, .highlow {
+    display: inline-block;
+}
+
+.location {
+    font-size:5em;
+    color: #333;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0.2em;
+}
+
+.locate {
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.locate input, .locate button {
+    font-size: 3em;
+    padding: 0.25em;
+    border: 5px solid transparent;
+    float: left;
+}
+
+.locate input {
+    background: rbg(215 215 215);
+    border-top-left-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
+}
+
+.locate button {
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.formrow {
+    display: inline-block;
+}
